@@ -1,0 +1,43 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Section */
+section {
+    min-height: 420px;
+}
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: rgb(22, 22, 21) !important;
+        text-shadow: 1px 1px 1px rgba(15, 14, 14, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(167, 167, 224);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
+
+/* Register User */
+.regis {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+  .btn-daftar {
+    float: right;
+  }
